@@ -13,3 +13,10 @@ The simulation includes:
 
 This project is part of my master's application portfolio and demonstrates my interest in bio-inspired robotics, programming, and scientific communication.  
 It also connects to my background in physics and data science, and supports my motivation to explore the link between living systems and robotics.
+
+## Author
+
+- Ibtissem Mokrani
+- Contact: ibtissemokrani@gmail.com
+- University: Sorbonne Université & Trinity College Dublin (Erasmus)
+
