@@ -6,7 +6,7 @@ Python project for simulating the locomotion and purposeful behavior of a Mandar
 
 ## General Overview
 This project simulates the undulatory swimming and foraging journey of a single Mandarinfish using Python.  
-Inspired by natural aquatic locomotion and bio-inspired robotics, the model reproduces the fish’s elegant, wave-like movement and its behavioral routine: leaving its vibrant coral shelter to hunt for food, then returning home.
+Inspired by natural aquatic locomotion and bio-inspired robotics, the model reproduces the fish’s wave-like movement and its behavioral routine: leaving its vibrant coral shelter to hunt for food, then returning home.
 
 ---
 
