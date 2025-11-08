@@ -94,6 +94,8 @@ This also provides a robust testbed for biomimetic robotics—demonstrating how 
 - Using real swimming dynamics, it undulates away, seeks out a food location, simulates a “foraging” behavior, then returns to its home base—reflecting homing seen in wild individuals.
 - This focused case not only visualizes animal movement but encodes ecological and behavioral context into a compact computational model, ideal for both academic study and robotic inspiration.
 
+--- 
+
 ## Project Developpement and Key Steps
 
 ### Implementation 
@@ -111,4 +113,26 @@ Key implementation steps were:
 
 To simulate purposeful movement, the Mandarinfish received a “home” position and a distant “food” target.
 Coding the behavioral cycle—departure, travel, foraging, and return—required synchronizing path planning logic with the backbone undulatory dynamics.
+
+### Obstacle Avoidance & Environmental Challenges
+
+Successfully integrating obstacle avoidance proved a notable challenge and a key learning point.
+Obstacles (“corals”) were modeled as circular zones, and the simulation utilized geometric checks (circle-line intersection) to decide when the Mandarinfish should divert from its straight path.
+
+At times, obstacle positioning—close to home or food—revealed that avoidance could overpower direct trajectory selection, leading the Mandarinfish to trace elaborate arcs rather than optimal routes.
+This behavior, while visually interesting, mirrors real-world complexities discussed in the scientific literature: organisms and robots alike must continuously adapt locomotion and path-planning to environmental constraints.
+
+Several strategies were explored:
+
+- Tuning avoidance thresholds, arc length constraints, and recovery logic.
+- Testing various obstacle configurations: simple reefs, complex multi-coral fields.
+- Balancing “tangent escape” with realistic foraging and homing cycles for more natural movement.
+
+### Visualization & Aesthetic Enhancements
+
+To make the simulation compelling and educational, significant attention was given to graphical detail:
+
+- Distinct palette choices for corals and fish body segments.
+- Clear “Home” and “Food” markers for ecological context.
+- Layering, legends, and animated wave propagation for maximal clarity.
 
