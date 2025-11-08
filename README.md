@@ -136,3 +136,22 @@ To make the simulation compelling and educational, significant attention was giv
 - Clear “Home” and “Food” markers for ecological context.
 - Layering, legends, and animated wave propagation for maximal clarity.
 
+### Challenges & Insights
+
+Key difficulties included:
+
+- Achieving robust transitions between traveling, obstacle avoidance, and returning.
+- Ensuring the Mandarinfish always commenced its journey from “home,” especially when obstacles were positioned close by.
+- Managing boundary cases where avoidance could dominate, sometimes leading to unexpected or non-optimal navigation—true to both synthetic and biological systems.
+
+Iterative refinement and dialogue between code, biological principle, and visual output formed the heart of this project.
+
+---
+
+## Conclusion
+
+This project brings together biomechanics, behavioral modeling, and robotics within a unified Python simulation.
+Despite minor technical and ecological challenges,
+the resulting animated Mandarinfish reliably demonstrates undulatory swimming, purposeful foraging, and adaptive obstacle avoidance—all within a visually engaging, extensible framework.
+
+The simulation is thus both scientifically robust and visually accessible, illustrating how bio-inspired code can bridge theory and application in modern robotics.
