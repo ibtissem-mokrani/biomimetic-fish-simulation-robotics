@@ -146,6 +146,24 @@ Key difficulties included:
 
 Iterative refinement and dialogue between code, biological principle, and visual output formed the heart of this project.
 
+### Notable Implementation Challenges
+
+Throughout development, several technical and logical challenges arose:
+
+- Head orientation and directionality:
+Initial versions occasionally generated backbone waves propagating in the wrong direction, resulting in the Mandarinfish’s head pointing away from its intended trajectory.
+
+- Robust obstacle avoidance:
+Tuning the geometric detection and avoidance response required careful adjustment—too sensitive, and the fish would begin avoidance too early; too lax, and it risked intersecting the coral.
+
+- Complete arc (“full turn”) constraint:
+Achieving a visually and behaviorally satisfying avoidance arc demanded a minimum turn angle (e.g., quarter or half-circle), preventing abrupt direction changes and unrealistic shortcuts.
+
+- Goal reaching and return:
+Ensuring the Mandarinfish both departed from the “home” location and arrived precisely at the food target (and returned) required synchronizing position/angle updates and careful threshold selection.
+
+Each issue was addressed through parameter tuning, code refinement, and iterative visualization—mirroring the kind of troubleshooting performed in both biological modeling and robotic control development.
+
 ---
 
 ## Conclusion
