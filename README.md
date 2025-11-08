@@ -94,3 +94,7 @@ This also provides a robust testbed for biomimetic robotics—demonstrating how 
 - Using real swimming dynamics, it undulates away, seeks out a food location, simulates a “foraging” behavior, then returns to its home base—reflecting homing seen in wild individuals.
 - This focused case not only visualizes animal movement but encodes ecological and behavioral context into a compact computational model, ideal for both academic study and robotic inspiration.
 
+### Project Developpement and Key Steps
+
+The practical coding work began with building a sinusoidal backbone model, calibrating physical parameters to closely mimics Mandarinfish biomecanics.
+Using Matplotlib for vizualization ensured an interactive approach - enabling rapid prototyping and refinement of the ondulatory swimming algorithm.
