@@ -178,5 +178,5 @@ The simulation is thus both scientifically robust and visually accessible, illus
 
 ## References
 
-Y. Li, X. Du, H. Wang, et al., “A comprehensive review on fish-inspired robots,” Biomimetic Intelligence and Robotics, June 2022.
-Blake, R.W. "The swimming of the mandarin fish Synchropus picturatus (Pisces: Callionymidae) and comparisons with other Sendentarious Streamlined Teleosts," Journal of Experimental Biology, 1979.
+- Y. Li, X. Du, H. Wang, et al., “A comprehensive review on fish-inspired robots,” Biomimetic Intelligence and Robotics, June 2022.
+- Blake, R.W. The swimming of Mandarin Fish Synchiropus picturatus (Callionyiidae: Teleostei). Journal of the Marine Biological Association of the United Kingdom, 59(2), 421–428, 1979.
