@@ -173,3 +173,10 @@ Despite minor technical and ecological challenges,
 the resulting animated Mandarinfish reliably demonstrates undulatory swimming, purposeful foraging, and adaptive obstacle avoidance—all within a visually engaging, extensible framework.
 
 The simulation is thus both scientifically robust and visually accessible, illustrating how bio-inspired code can bridge theory and application in modern robotics.
+
+---
+
+## References
+
+Y. Li, X. Du, H. Wang, et al., “A comprehensive review on fish-inspired robots,” Biomimetic Intelligence and Robotics, June 2022.
+Blake, R.W. "The swimming of the mandarin fish Synchropus picturatus (Pisces: Callionymidae) and comparisons with other Sendentarious Streamlined Teleosts," Journal of Experimental Biology, 1979.
